@@ -15,7 +15,7 @@ It provides a Streamlit UI to run the pipeline, tune parameters, and infer sugge
    ```bash
    python -m venv .venv
    source .venv/bin/activate   # or .venv\Scripts\activate on Windows
-   pip install -r requirements.txt
+   uv add -r requirements.txt / pip install -r requirements.txt
    ```
 
 2. Run Streamlit UI:
